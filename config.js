@@ -36,7 +36,7 @@ module.exports = {
 
     SESSION_ID: process.env.SESSION_ID || '',
 
-    MODE: (process.env.MODE || 'private').toLowerCase(),
+    MODE: (process.env.MODE || 'public').toLowerCase(),
 
     HANDLERS: (process.env.PREFIX || '^[.,!]').trim(),
 
@@ -60,11 +60,11 @@ module.exports = {
 
     ANTILINK_MSG: process.env.ANTILINK_MSG || '_Link Not Allowed!_\n_(Change this by setting var ANTILINK_MSG)_',
 
-    BOT_INFO: process.env.BOT_INFO || 'ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ;22395064497;https://i.imgur.com/T7mUwzI.jpeg',
+    BOT_INFO: process.env.BOT_INFO || 'ʜᴇʀᴍɪᴛ;𝑏𝑤𝑎𝑏𝑦𝑚𝑜𝑢𝑑𝑦♨︎;22395064497;https://i.imgur.com/T7mUwzI.jpeg',
 
-    AUDIO_DATA: process.env.AUDIO_DATA === undefined ? 'ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ;https://i.imgur.com/T7mUwzI.jpeg' : process.env.AUDIO_DATA,
+    AUDIO_DATA: process.env.AUDIO_DATA === undefined ? 'ʜᴇʀᴍɪᴛ;𝑏𝑤𝑎𝑏𝑦𝑚𝑜𝑢𝑑𝑦♨︎;https://i.imgur.com/T7mUwzI.jpeg' : process.env.AUDIO_DATA,
 
-    STICKER_DATA: process.env.STICKER_DATA === undefined ? 'ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ' : process.env.STICKER_DATA,
+    STICKER_DATA: process.env.STICKER_DATA === undefined ? 'ʜᴇʀᴍɪᴛ;𝑏𝑤𝑎𝑏𝑦𝑚𝑜𝑢𝑑𝑦♨︎' : process.env.STICKER_DATA,
 
     ERROR_MESSAGE: process.env.ERROR_MESSAGE === undefined ? true : toBool(process.env.ERROR_MESSAGE), 
 
